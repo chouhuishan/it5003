@@ -9,5 +9,3 @@ def number_petals_left(N: int) -> int:
 N = int(input())  # initial number of petals
 
 print(number_petals_left(N))
-
-#

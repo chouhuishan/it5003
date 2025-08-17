@@ -1,8 +1,8 @@
 from math import floor
 
 
-def get_net_annual_salary(l: float, s: float, salaries: list[int]) -> int:
-    pension_fund_pct = l / 100
+def get_net_annual_salary(L: float, s: float, salaries: list[int]) -> int:
+    pension_fund_pct = L / 100
     private_prop_pct = s / 100
     monthly_tax_exemption = 59_665
     updated_tax_exemption = monthly_tax_exemption
@@ -43,8 +43,8 @@ def get_net_annual_salary(l: float, s: float, salaries: list[int]) -> int:
     return net_annual_salary
 
 
-l = float(input())  # contribution % to pension fund
+L = float(input())  # contribution % to pension fund
 s = float(input())  # contribution % to private property fund
 salaries = [int(input()) for _ in range(12)]  # 12 months = 1 year
 
-print(get_net_annual_salary(l, s, salaries))
+print(get_net_annual_salary(L, s, salaries))
