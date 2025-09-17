@@ -1,3 +1,9 @@
+# Matric Number : A0190163L
+# Full name : Chou Hui Shan
+# Lab : B1
+# Lab group TA : Jeanette Tan Yu Wei
+
+
 def get_asc_weight(
     list_furniture_weight: list[tuple[str, int]],
 ) -> list[tuple[str, int]]:

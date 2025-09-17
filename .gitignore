@@ -24,7 +24,9 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
+IT5003 Materials (clean)
+Lecture
+Tutorial
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

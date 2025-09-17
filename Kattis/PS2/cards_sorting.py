@@ -1,3 +1,9 @@
+# Matric Number : A0190163L
+# Full name : Chou Hui Shan
+# Lab : B1
+# Lab group TA : Jeanette Tan Yu Wei
+
+
 def get_cards_sorted(
     list_cards: list[dict[str, str | tuple[str, str]]], sort_orders: list[str]
 ) -> list[str]:
