@@ -15,3 +15,5 @@ n, m, k = map(int, input().split())
 line = map(int, input().split())
 
 print(least_number_days(n, m, k, line))
+
+# Time complexity = O(n) - sum the typos

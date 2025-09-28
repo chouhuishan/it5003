@@ -10,3 +10,5 @@ n = int(input())  # number of goals
 m = int(input())  # scoring flag
 
 print(when_to_bet(n, m))
+
+# Time complexity = O(1), read the inputs (2 integers)

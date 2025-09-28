@@ -10,6 +10,8 @@ max_time = list(map(int, input().split()))
 
 print(get_max_time_satisfy_requirements(N, max_time))
 
+# Time complexity = O(N) if process from back to front
+
 
 # def get_max_time_satisfy_requirements(N, max_time):
 #     total = 0

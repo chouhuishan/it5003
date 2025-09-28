@@ -9,3 +9,5 @@ n = int(input())  # integer n
 temp = list(map(int, input().split()))  # n integers of temperature
 
 print(*max_and_min_temp(n, temp))
+
+# Time complexity = O(n)
