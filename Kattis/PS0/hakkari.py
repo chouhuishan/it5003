@@ -30,4 +30,4 @@ mine_map = form_mine_map(n)
 coordinates = get_mine_positions(mine_map, n, m)
 print_mine_positions(coordinates)
 
-# Time complexity = O(n * m)
+# Time complexity = O(n * m) 

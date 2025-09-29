@@ -1,6 +1,6 @@
 def get_total_steps(data: list[int]) -> tuple[int, int]:
-    K = data[0]
-    H = data[1:]
+    K = data[0]  # data set number
+    H = data[1:]  # 20 non-negative unique integers
     steps = 0
     n = len(H)
     for i in range(1, n):

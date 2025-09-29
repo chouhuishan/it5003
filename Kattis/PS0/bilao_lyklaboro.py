@@ -11,3 +11,5 @@ def remove_duplicate(s: str) -> str:
 s = input().lower()
 
 print(remove_duplicate(s))
+
+#  Time complexity = O(n) - n is the string length
